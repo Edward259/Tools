@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.edward.view.PasswordEditText
+        android:id="@+id/et_password"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:space="10dp" />
+
+    <com.edward.view.CustomPasswordEditText
+        android:id="@+id/et_star"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:space="10dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear" />
+
+</LinearLayout>
